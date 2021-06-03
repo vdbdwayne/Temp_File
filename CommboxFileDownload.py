@@ -1,11 +1,11 @@
 ####INSTRUCTIONS
 # Install python
 # Use pip to install required python packages: selenium, msedge.selenium_tools, pandas
-# Add Commbox uname/pword as windows environment variables "COMMBOX_USER", "COMMBOX_PASS" respectivly
-# Download MS-Edge WebDriver and add its location to PATH in windows environment variables
+# Add Commbox uname/pword as windows environment variables "COMMBOX_USER", "COMMBOX_PASS" respectivly (https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/)
+# Download MS-Edge WebDriver and add its location to PATH in windows environment variables (https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 # Set the script variables (DownloadFolder and Output file location/name, and adjust dates for the report to download)
-# Script is set to run a headless browser, if you want to change this, comment out EdgeOpts.add_argument("--headless")
-# Create a new Scheduled task to run with highest privlages and whether user is logged in or not
+# Script is set to run a headless browser in order to work, for testing you want to change this. To do that comment out "EdgeOpts.add_argument("--headless")" Be sure to uncomment after
+# Create a new Scheduled task to run with highest privlages and whether user is logged in or not on the host machine
 
 
 ##-------------IMPORTS-------------##
